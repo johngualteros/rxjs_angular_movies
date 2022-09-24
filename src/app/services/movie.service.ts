@@ -7,7 +7,7 @@ import { ApiResponse } from '../interfaces/apiResponse';
 })
 export class MovieService {
 
-  private baseUrl: string = "http://www.omdbapi.com/?apikey=4a73cc02&s=";
+  private baseUrl: string = "http://www.omdbapi.com/?apikey=[api_key]&s=";
 
   constructor(private http: HttpClient) { }
 
